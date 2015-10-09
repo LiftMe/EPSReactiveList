@@ -31,6 +31,11 @@ static NSString * const defaultCellIdentifier = @"EPSReactiveTableViewController
 
 #pragma mark - Public Methods
 
+- (instancetype)init
+{
+    return [self initWithNibName:nil bundle:nil];
+}
+
 - (id)initWithCoder:(NSCoder *)aDecoder {
     if (!(self = [super initWithCoder:aDecoder])) return nil;
     return [self commonInit];
