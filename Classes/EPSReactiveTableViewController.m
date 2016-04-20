@@ -46,6 +46,11 @@ static NSString * const defaultCellIdentifier = @"EPSReactiveTableViewController
     return [self commonInit];
 }
 
+- (id)initWithStyle:(UITableViewStyle)style {
+    if (!(self = [super initWithStyle:style])) return nil;
+    return [self commonInit];
+}
+
 - (id)commonInit
 {
     _animateChanges = YES;
