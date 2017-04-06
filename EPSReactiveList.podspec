@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Classes/*.h'
   s.framework = 'UIKit'
-  s.dependency 'ReactiveCocoa', '~> 4.2.2'
+  s.dependency 'ReactiveObjC', '2.1.2'
 end

@@ -1,3 +1,7 @@
 platform :ios, '7.0'
 
-pod "EPSReactiveList", :path => "../EPSReactiveList.podspec"
+target 'Notion' do
+
+    pod "ReactiveListExample", :path => "../EPSReactiveList.podspec"
+
+end
