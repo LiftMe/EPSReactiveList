@@ -6,10 +6,12 @@
 //  Copyright (c) 2014 Electric Peel, LLC. All rights reserved.
 //
 
+@import ReactiveObjC.RACEXTScope;
+@import ReactiveObjC.RACEXTKeyPathCoding;
+
 #import "EPSChangeObserver.h"
 
-#import <ReactiveCocoa/RACEXTScope.h>
-#import <ReactiveCocoa/RACEXTKeyPathCoding.h>
+
 
 @interface EPSChangeObserver ()
 

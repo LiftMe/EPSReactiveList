@@ -6,9 +6,11 @@
 //  Copyright (c) 2014 Electric Peel, LLC. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @class RACSignal;
+
+
 
 @protocol EPSReactiveList <NSObject>
 

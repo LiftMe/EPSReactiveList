@@ -6,11 +6,12 @@
 //  Copyright (c) 2014 Electric Peel, LLC. All rights reserved.
 //
 
-#import "EPSReactiveCollectionViewController.h"
+@import ReactiveObjC.RACEXTScope;
 
+#import "EPSReactiveCollectionViewController.h"
 #import "EPSChangeObserver.h"
 
-#import <ReactiveCocoa/RACEXTScope.h>
+
 
 @interface EPSReactiveCollectionViewController ()
 

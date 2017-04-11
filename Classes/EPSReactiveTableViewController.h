@@ -6,10 +6,12 @@
 //  Copyright (c) 2014 Peter Stuart. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
+@import ReactiveObjC;
 
-#import <ReactiveCocoa/ReactiveCocoa.h>
 #import "EPSReactiveList.h"
+
+
 
 @interface EPSReactiveTableViewController : UITableViewController <EPSReactiveList>
 

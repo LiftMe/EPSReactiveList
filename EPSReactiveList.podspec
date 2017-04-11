@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EPSReactiveList"
-  s.version          = "0.3.0"
+  s.version          = "0.4.0"
   s.summary          = "Table and collection view controllers that automatically populates themselves, and animate the insertion and deletion of rows/items."
 
   s.homepage         = "https://github.com/LiftMe/EPSReactiveList"
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Classes/*.h'
   s.framework = 'UIKit'
-  s.dependency 'ReactiveCocoa', '~> 4.2.2'
+  s.dependency 'ReactiveObjC', '2.1.2'
 end

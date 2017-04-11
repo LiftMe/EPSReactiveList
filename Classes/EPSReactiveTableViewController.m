@@ -6,12 +6,13 @@
 //  Copyright (c) 2014 Peter Stuart. All rights reserved.
 //
 
-#import "EPSReactiveTableViewController.h"
+@import ReactiveObjC.RACEXTScope;
+@import ReactiveObjC.RACEXTKeyPathCoding;
 
+#import "EPSReactiveTableViewController.h"
 #import "EPSChangeObserver.h"
 
-#import <ReactiveCocoa/RACEXTScope.h>
-#import <ReactiveCocoa/RACEXTKeyPathCoding.h>
+
 
 @interface EPSReactiveTableViewController ()
 
